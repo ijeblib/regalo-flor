@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Feliz mes, Flor ✨</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Pacifico&display=swap');
+
+    @keyframes pulse {
+      0%, 100% {
+        color: #e91e63;
+        text-shadow: 0 0 5px #e91e63;
+      }
+      50% {
+        color: #f48fb1;
+        text-shadow: 0 0 20px #f48fb1;
+      }
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Comfortaa', cursive, 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #ffe6f0, #fef4f8);
+      background-image: radial-gradient(circle, rgba(255,182,193,0.1) 1px, transparent 1px);
+      background-size: 40px 40px;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 30px 20px;
+      min-height: 100vh;
+    }
+
+    h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 3em;
+      margin-bottom: 0.3em;
+      animation: pulse 3s infinite;
+      font-weight: 900;
+    }
+
+    h2 {
+      color: #c2185b;
+      margin-bottom: 1.5em;
+      font-style: italic;
+      font-weight: 700;
+    }
+
+    img {
+      width: 320px;
+      max-width: 90vw;
+      border-radius: 20px;
+      margin: 20px 0;
+      box-shadow: 0 0 20px rgba(233, 30, 99, 0.4);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      animation: fadeIn 2s ease forwards;
+    }
+
+    img:hover {
+      transform: scale(1.08);
+      box-shadow: 0 0 40px rgba(233, 30, 99, 0.8);
+    }
+
+    .mensaje {
+      font-size: 1.2em;
+      max-width: 600px;
+      background: #fff0f5;
+      padding: 30px 35px;
+      border-radius: 25px;
+      box-shadow: 0 8px 25px rgba(229, 113, 148, 0.3);
+      line-height: 1.6em;
+      color: #5a2a40;
+      animation: fadeIn 2s ease forwards 1s;
+      font-weight: 600;
+    }
+
+    .mensaje strong {
+      color: #e91e63;
+      font-weight: 900;
+    }
+
+    .mensaje em {
+      color: #b33a5a;
+    }
+
+    audio {
+      margin-top: 30px;
+      outline: none;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(233, 30, 99, 0.3);
+      width: 320px;
+      max-width: 90vw;
+      animation: fadeIn 2s ease forwards 2s;
+    }
+  </style>
+</head>
+<body>
+  <h1>FELIZ DIA MI AMORR 💘</h1>
+  <h2>vamo por más, veivi :3</h2>
+
+  <img src="flor.jpg" alt="Flor y Jesús" />
+
+  <div class="mensaje">
+    <p><strong>Olii mi amurrshh :3</strong></p>
+    <p>
+      Mira, la verdad es que la noche esa me ayudó un amigo a hacerla, JAJSAJSA, me estresé un poco,<br>
+      sé que quizá esto es fácil para otros, pero yo te lo hice con mucho cariño c:<br>
+      Mi niña, no sabes cuánto me haces sentir tan tranquilo y feliz al escuchar tu hermosa voz.<br>
+      Tal vez para cuando leas esto ya me hayas chuleado toda entera, pero a mí me vale cómo la veas.<br>
+      Ñiñiñi, mi niña, no sabes lo perfecta que eres. Bueno, no perfecta, sino única.<br>
+      Lo único malo es que no te gusta mucho la programación y que estamos lejos, JASJSDA.<br>
+      Pero en serio, no sabes lo feliz que me haces y con todo lo de mi padre, que espero ya haberte contado,<br>
+      tú me haces un gran paro. Si no fuera por ti, me corto las venas alaberga, JAJA.<br>
+      La verdad podría pasar horas escribiéndote un textote diciendo cuánto te quiero y te adoro,<br>
+      pero creo que aún nos falta tiempo, así que espero vivir toda mi vida junto a ti c:<br>
+      <em>(Edit)</em> Ya me regañaste porque según tú no te dije cuándo cumplíamos, :CCC pero bueno,<br>
+      la verdad no me importa, yo guapo TQM.
+    </p>
+    <p><strong>Con mucho cariño, tu cachito 💖</strong></p>
+  </div>
+
+  <audio controls autoplay loop>
+    <source src="tu-silueta.mp3" type="audio/mpeg" />
+    Tu navegador no soporta audio :(
+  </audio>
+</body>
+</html>
